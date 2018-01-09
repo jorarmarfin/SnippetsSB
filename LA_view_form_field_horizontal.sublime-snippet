@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+	{!!Form::label('lbl${1:Name}', '${2:Name}',['class'=>'col-md-1 control-label']);!!}
+    <div class="col-md-2">
+	{!!Form::text('${3:Name}', null , ['class'=>'form-control','placeholder'=>'${2:Name}']);!!}
+    </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>view:form:field:horizontal</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+$style = array(
+    'position' => '',
+    'align' => 'C',
+    'stretch' => false,
+    'fitwidth' => true,
+    'cellfitalign' => '',
+    'border' => false,
+    'hpadding' => 'auto',
+    'vpadding' => 'auto',
+    'fgcolor' => array(0,0,0),
+    'bgcolor' => false, //array(255,255,255),
+    'text' => true,
+    'font' => 'helvetica',
+    'fontsize' => 5,
+    'stretchtext' => 4
+);
+PDF::Rect(2,92,40,12,'DF','',array(0,0,0,0) );
+PDF::write1DBarcode($credencial[$i]->codigo, 'C39', 2, 92, 40, 13, 0.4, $style, 'M');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pdf:barcode</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group ">
+    {!!Form::label('lblRango', 'Rango de Litos',['class'=>'col-md-2 control-label']);!!}
+    <div class="col-md-10">
+        {!!Form::text('blanco', null , ['class'=>'form-control','placeholder'=>'Blanco','id'=>'range_3']);!!}
+        <span class="help-block"> Set type to double and specify range, also showing grid and adding prefix "\$" </span>
+    </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>view:form:range</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

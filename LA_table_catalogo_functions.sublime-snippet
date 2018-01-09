@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+public function Maestro(\$NameTable){
+	\$data=\$this->select('iditem')
+			   ->where('idtable',0)
+		       ->where('nombre',"\$NameTable")->first();
+	return \$data->iditem;
+}
+#--------------------------------------------------------------------
+public function scopeCombo(\$cadenaSQL,\$NameTable){
+	\$idtable=\$this->Maestro(\$NameTable);
+	return \$cadenaSQL->where('idtable',\$idtable)
+					 ->where('activo',1)
+					 ->orderBy('nombre');
+}
+#--------------------------------------------------------------------
+public function scopeIdCatalogo(\$cadenaSQL,\$NameTable,\$NameSubTable){
+	\$idtable=\$this->Maestro(\$NameTable);
+	return \$cadenaSQL->where('idtable',\$idtable)
+					 ->where('nombre',\$NameSubTable)
+					 ->where('activo',1)->lists('id')[0];
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>table:catalogo:functions</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

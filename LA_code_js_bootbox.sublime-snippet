@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+\$("#Eliminar").click(function(event) {
+    /*http://bootboxjs.com/examples.html#bb-confirm-dialog*/
+    bootbox.confirm({
+        title:'¡¡¡ALERTA!!!',
+        message:'Esta seguro que desea Eliminar permanentemente este registro',
+        buttons: {
+            confirm: {
+                label: 'Yes',
+                className: 'btn-success'
+            },
+            cancel: {
+                label: 'No',
+                className: 'btn-danger'
+            }
+        },
+        callback: function(result){
+            console.log('This was logged in the callback: ' + result);
+        }
+
+    });
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>code:js:bootbox</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

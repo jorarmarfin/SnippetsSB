@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+PDF::SetXY(90,200);
+PDF::SetFont('helvetica','',18);
+PDF::Cell(110,5,'Mag. Ing. Silvio Quinteros Chávez','T',0,'C');
+PDF::SetXY(90,207);
+PDF::SetFont('helvetica','',18);
+PDF::Cell(110,5,'Jefe OCAD',0,0,'C');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pdf:firma</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

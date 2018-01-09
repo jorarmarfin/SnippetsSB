@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<button class="btn green-sharp btn-large" data-toggle="confirmation" data-original-title="Are you sure ?" title="">Default configuration</button>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>metronic:popover confirmation</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

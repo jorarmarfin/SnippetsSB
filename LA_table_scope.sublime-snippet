@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+/**
+* Devuelve los valores Activos
+* @param  [type] $cadenaSQL [description]
+* @return [type]            [description]
+*/
+public function scope${1:name}(\$cadenaSQL,${2:variableopcional}){
+	return \$cadenaSQL->where('idtable',\$idtable)
+					 ->where('activo',1)
+					 ->orderBy('nombre');
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>table:scope</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

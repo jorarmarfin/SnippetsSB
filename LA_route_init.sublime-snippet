@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Direccion de rutas
+ */
+require __DIR__.'/Routes/RouteAuth.php';
+require __DIR__.'/Routes/RouteAdmin.php';
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>route:init</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

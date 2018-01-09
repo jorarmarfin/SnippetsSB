@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+		<li class="nav-item  ">
+		    <a href="javascript:;" class="nav-link nav-toggle">
+		        <i class="icon-book-open"></i>
+		        <span class="title">${1:nombre:menu}</span>
+		        <span class="arrow"></span>
+		    </a>
+		</li>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>view:menu:li</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

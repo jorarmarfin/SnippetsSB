@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$table->date('${1:nombre}')->nullable();
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>migration:table:date</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+protected \$table = '${1:Nombre_de_la_tabla}';
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>table:name</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

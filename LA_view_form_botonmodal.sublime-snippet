@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+{!!Form::botonmodal('${1:nombre}','#${2:Nombre modal}','${3:color}','${4:icon}')!!}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>view:form:botonmodal</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+use Storage;
+use File;
+
+use Illuminate\Routing\Route;
+use Illuminate\Support\Facades\Session;
+use Styde\Html\Facades\Alert;
+use Carbon\Carbon;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>code:dependencias</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

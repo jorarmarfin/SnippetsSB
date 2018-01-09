@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+Route::group(['prefix' => '${1:prefix}','namespace'=>'${2:nameespace}','middleware'=>'${3:moddleware}'], function() {
+
+});
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>route:group</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+protected \$fillable = ['${1:idtable}', '${2:iditem}', '${3:codigo}','${4:nombre}','${5:descripcion}','${6:valor}','${7:activo}'];
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>table:field</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

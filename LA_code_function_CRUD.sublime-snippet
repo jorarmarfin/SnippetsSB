@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+public function __construct() {
+    \$this->beforeFilter('@${1:NameFunction}',['only'=>['show','edit','update','destroy','userActivate']]);
+}
+/**
+ * Busca Usuario
+ * @param  Route  \$route [description]
+ * @return [type]        [description]
+ */
+public function ${1:NameFunction}(Route \$route)
+{
+    \$this->user = User::findOrFail(\$route->getParameter('users'));
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>code:function:CRUD</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

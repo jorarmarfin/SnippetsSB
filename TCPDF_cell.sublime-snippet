@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+PDF::SetXY(20,15);
+PDF::SetFont('helvetica','',22);
+PDF::Cell(170,15,"FORMATO DE PAGO",0,0,'C');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pdf:cell</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

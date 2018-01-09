@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+    {!!Form::label('lbl${1:Name}','${2:Name}',['class'=>'col-sm-2 control-label'])!!}
+    <div class="col-sm-10 ">
+        <div class="input-icon right">
+            <i class="fa"></i>
+            {!!Form::select('${3:Name}', [],null,['class'=>'form-control','id'=>'${3:Name}']);!!}
+        </div>
+    </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>view:form:select</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

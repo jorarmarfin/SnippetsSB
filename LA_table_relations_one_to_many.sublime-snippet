@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Relacion de one to many
+ * Obtener la dependencia que tiene esta persona
+ */
+public function ${1:tabla_foranea}()
+{
+    return \$this->hasmany(${1:tabla}::class, '${2:id}', '${4:idnombre}');
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>table:relations_one_to_many</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

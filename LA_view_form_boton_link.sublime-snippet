@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<a href="{{ route('${1:personal.index}') }}" class="btn default">${2:REGRESAR}</a>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>view:form.buttonlink</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

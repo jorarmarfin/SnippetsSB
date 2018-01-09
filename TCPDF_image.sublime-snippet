@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+PDF::Image(asset('assets/pages/img/scotiabank_logo.jpg'),18,20,40);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pdf:image</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

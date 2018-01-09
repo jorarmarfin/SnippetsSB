@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Get the post register / login redirect path.
+ * framework/src/Illuminate/Foundation/Auth/RedirectsUsers.php
+ *
+ * @return string
+ */
+public function redirectPath()
+{
+    switch (Auth::user()->role->nombre) {
+        case 'root':
+                return route('home.index');
+            break;
+
+        default:
+                return route('users.index');
+            break;
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>auth::redirectPath</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

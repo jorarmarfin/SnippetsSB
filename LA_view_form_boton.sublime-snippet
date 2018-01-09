@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+{!!Form::boton('${1:name}',route('${2:route}'),'${3:color}','${4:icon}','${5:botonclass}')!!}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>view:form:boton</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

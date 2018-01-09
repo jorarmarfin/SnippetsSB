@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+PDF::SetTitle('${1:titulo}');
+PDF::AddPage('L','A5');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pdf:title</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

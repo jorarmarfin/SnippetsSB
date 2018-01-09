@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+Catalogo::create(['idtable' => ${1:idtable},'iditem' => ${2:iditem}, 'codigo' => '${3:codigo}','nombre' => '${4:nombre}','descripcion'=>'${5:descripcion}','valor'=> null,'activo'=>true]);
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>seeder:catalogo_item</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

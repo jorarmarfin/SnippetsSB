@@ -1,0 +1,40 @@
+<snippet>
+	<content><![CDATA[
+\$('#Postulantes').dataTable({
+    "language": {
+        "emptyTable": "No hay datos disponibles",
+        "info": "Mostrando _START_ a _END_ de _TOTAL_ filas",
+        "search": "Buscar Postulante :",
+        "lengthMenu": "_MENU_ registros"
+    },
+    "bProcessing": true,
+    "sAjaxSource": '{{ url('carga/postulante/list') }}',
+    "pagingType": "bootstrap_full_number",
+    "columnDefs": [
+                {  // set default column settings
+                    'orderable': false,
+                    'targets': '_all'
+                },
+                {
+                    'targets':5,
+                    'render': function ( data, type, full, meta ) {
+                      return '<a href="postulante/'+data+'/edit" title="Editar"class="btn btn-icon-only green-haze" ><i class="fa fa-edit"></i></a>';
+                    }
+                }
+            ],
+    "columns": [
+            { "data": "codigo","defaultContent": "" },
+            { "data": "nombrecompleto","defaultContent": "" },
+            { "data": "modalidad","defaultContent": "" },
+            { "data": "aula","defaultContent": "" },
+            { "data": "sector","defaultContent": "" },
+            { "data": "id","defaultContent": "" },
+        ],
+    "order": [1,"asc"]
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>code:js:datatable</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+/**
+* Atributos ${1:descripcion}
+*/
+public function get${2:Atributo}Attribute()
+{
+	${3:variable} = ${4:Modelo}::find(\$this->${5:keyfor});
+	return ${3:variable}->nombre;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>table:get atribute</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+@section('styles-plugins')
+{!! Html::style('assets/global/plugins/ion.rangeslider/css/ion.rangeSlider.css') !!}
+{!! Html::style('assets/global/plugins/ion.rangeslider/css/ion.rangeSlider.skinFlat.css') !!}
+{!! Html::style('assets/global/plugins/bootstrap-markdown/css/bootstrap-markdown.min.css') !!}
+{!! Html::style('assets/global/plugins/bootstrap-summernote/summernote.css') !!}
+@stop
+@section('plugins-js')
+{!! Html::script('assets/global/plugins/ion.rangeslider/js/ion.rangeSlider.min.js') !!}
+{!! Html::script('assets/global/plugins/bootstrap-markdown/js/bootstrap-markdown.js') !!}
+{!! Html::script('assets/global/plugins/bootstrap-summernote/summernote.min.js') !!}
+@stop
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>code:plugins:range</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
