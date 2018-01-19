@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<ion-list>
+  <ion-item>
+    <ion-thumbnail item-start>
+      <img src="https://ionicframework.com/dist/preview-app/www/assets/img/thumbnail-rotla.png">
+    </ion-thumbnail>
+    <h2>My Neighbor Totoro</h2>
+    <p>Hayao Miyazaki • 1988</p>
+    <button ion-button clear item-end>View</button>
+  </ion-item>
+</ion-list>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ionic:list</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+  openModal(characterNum) {
+
+    let modal = this.modalCtrl.create(${1:ModalContentPage}, characterNum);
+    modal.present();
+
+  }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ionic:code:modal</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
